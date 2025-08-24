@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkout</title>
+</head>
+
+<body>
+    <header>
+        <h1>Checkout</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+    <main class="checkout-container">
+        <form action="#" method="post" class="checkout-form">
+            <h2>Billing Details</h2>
+            <label for="fullname">Full Mame</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" required>
+
+            <h2>Payment</h2>
+
+            <label for="cardname">Name on Card</label>
+            <input type="text" id="cardname" name="cardname" required>
+
+            <label for="exp">Expiration</label>
+            <input type="text" id="exp" name="exp" placeholder="MM/YY" required>
+
+            <label for="CVV">CVV</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <button type="submit" class="btn">Place Order</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2025 ZhakCart. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
